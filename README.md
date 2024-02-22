@@ -1,1 +1,4 @@
-# Smart_Drawer
+# Drawer-e
+Drawer-E is an IoT-based security device designed for drawers, specifically catering to the protection of assets or valuables owned by UMKM such as Padang Restaurants. The device is seamlessly integrated with the Telegram application and utilizes an Esp32 Dev-kit 38 pin-out microcontroller. The components include a fingerprint sensor, dolenoid door lock, sensor magnetic reed switch, sensor vibration SW-420, relay, LED, Push Button, Nema stepper motor, L299n stepper driver module, and buzzer.
+
+Here's how the system operates: when the system is activated, the red LED illuminates. After the user validates their fingerprint using the fingerprint sensor, the red LED deactivates, and the green LED lights up. Simultaneously, the relay is in a normally open state. Subsequently, if the magnetic reed switch sensor registers a HIGH state and the vibration sensor detects vibrations exceeding 500, the buzzer activates to signal a potential threat to the drawer. The integration of push buttons and stepper motors serves the purpose of automatically closing the drawer, enhancing the security features of the device.
